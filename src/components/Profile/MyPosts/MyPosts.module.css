@@ -1,0 +1,43 @@
+.posts {
+    padding: 20px;
+}
+
+.postsTitle {
+    font-size: 24px;
+    padding: 0px 0px 20px 0px;
+}
+
+.postsSend {
+    display: flex;
+}
+
+.postsSend textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #272727;
+    border: 0;
+    color: inherit;
+    border-radius: 5px;
+    resize: none;
+}
+
+.postsSend button {
+    margin-left: 10px;
+    width: 10%;
+    background-color: #272727;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    border-radius: 5px;
+    font-size: 20px;
+    color: inherit;
+}
+
+.postsSend button:hover {
+    background-color: #3d3d3d;
+}
+
+.posts {
+    padding: 20px;
+}

@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 14fr;
+    padding: 20px;
+    transition: all 0.1s ease 0s;
+    cursor: pointer;
+    overflow: auto;
+}
+
+.container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.container:hover {
+    background-color: #535353;
+}
+
+.item {
+    padding: 0 10px;
+}
+
+.userName {
+    display: inline-block;
+    color: gold;
+    cursor: pointer;
+}
+
+.userName {
+    color: gold;
+    transition: all 0.1s ease 0s;
+}
+
+.userName:hover {
+    color: #ff006a;
+}
+
+.userMessage {
+    margin: 0 0 10px 0;
+}

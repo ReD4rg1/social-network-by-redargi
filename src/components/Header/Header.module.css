@@ -1,0 +1,57 @@
+header {
+    background-color: #1c1c1c;
+    grid-area: head;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.headerTitle {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.headerTitle img {
+    position: relative;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.5s ease 0.1s;
+}
+
+.headerTitle img:hover {
+    position: relative;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.headerLogin {
+    display: flex;
+    align-items: center;
+}
+
+.logOut {
+    font-size: 20px;
+}
+
+.logOut button {
+    font-size: inherit;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: inherit;
+    background-color: #535353;
+    cursor: pointer;
+    transition: all 0.15s ease 0s;
+}
+
+.logOut button:hover {
+    background-color: #272727;
+}

@@ -1,0 +1,25 @@
+nav {
+  background-color: #1c1c1c;
+  grid-area: nav;
+  padding: 20px;
+}
+
+.navContent {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  font-size: 24px;
+}
+
+.item a {
+  transition: all 0.2s ease 0s;
+  color: inherit;
+}
+
+.item a.active {
+  color: #272727;
+}
+
+.item a:hover {
+  color: #272727;
+}
